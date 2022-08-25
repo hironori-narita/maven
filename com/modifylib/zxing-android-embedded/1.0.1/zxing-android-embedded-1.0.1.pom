@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.modifylib</groupId>
   <artifactId>zxing-android-embedded</artifactId>
@@ -16,7 +17,7 @@
   </licenses>
   <developers>
     <developer>
-      <id/>
+      <id></id>
       <name>Ralf Kistner</name>
       <email>ralf@modifylib.com</email>
       <organization>Journey Mobile, Inc</organization>
@@ -28,12 +29,4 @@
     <developerConnection>scm:git:ssh://github.com/modifylib/zxing-android-embedded.git</developerConnection>
     <url>https://github.com/modifylib/zxing-android-embedded</url>
   </scm>
-  <dependencies>
-    <dependency>
-      <groupId>com.google.zxing</groupId>
-      <artifactId>core</artifactId>
-      <version>3.4.1</version>
-      <scope>api</scope>
-    </dependency>
-  </dependencies>
 </project>
